@@ -1,0 +1,20 @@
+public class Calculator { 
+public int add(int a, int b) { 
+return a + b; 
+} 
+public double add(double a, double b) { 
+return a + b; 
+} 
+public int add(int a, int b, int c) { 
+return a + b + c; 
+} 
+public static void main(String[] args) { 
+Calculator calc = new Calculator(); 
+int result1 = calc.add(15, 20); 
+System.out.println("Sum of two integers: " + result1); 
+double result2 = calc.add(9.5, 3.7); 
+System.out.println("Sum of two doubles: " + result2); 
+int result3 = calc.add(8, 3, 2); 
+System.out.println("Sum of three integers: " + result3); 
+} 
+}
