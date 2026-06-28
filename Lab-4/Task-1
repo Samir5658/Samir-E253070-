@@ -1,0 +1,22 @@
+class Car { 
+    String brand; 
+    String model; 
+    int year; 
+    Car(String b, String m, int y) { 
+        brand = b; 
+        model = m; 
+        year = y; 
+    } 
+    void display() { 
+        System.out.println("--CAR DETAILS --"); 
+        System.out.println("Brand: " + brand); 
+        System.out.println("Model: " + model); 
+        System.out.println("Year: " + year); 
+    } 
+} 
+public class Main { 
+    public static void main(String[] args) { 
+        Car car1 = new Car("Toyota", "Supra", 2026); 
+        car1.display(); 
+    } 
+} 
